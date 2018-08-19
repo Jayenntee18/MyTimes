@@ -1,0 +1,22 @@
+.header{
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display:flex;
+  color: MediumAquaMarine;
+  border-bottom: 1px solid black;
+  align-items: center;
+}
+
+#logo{
+  justify-content: space-around;
+}
+
+#headings{
+  justify-content: space-around;
+}
+
+.header-nav li{
+  display: inline-block;
+  justify-content: flex-start;
+}

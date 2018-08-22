@@ -2,21 +2,25 @@
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
-  display:flex;
   color: MediumAquaMarine;
   border-bottom: 1px solid black;
-  align-items: center;
+  align-items:center;
+  display: inline-flex;
+  width: 100%;
+}
+
+.header-nav span{
+  display: inline-block;
+  justify-content: space-between;
+  position: relative;
+  left: 850px;
+  margin: 0px 10px;
 }
 
 #logo{
-  justify-content: space-around;
+  padding: 5px 5px;
 }
 
-#headings{
-  justify-content: space-around;
-}
-
-.header-nav li{
-  display: inline-block;
-  justify-content: flex-start;
+#heading{
+  padding-left: 8px;
 }

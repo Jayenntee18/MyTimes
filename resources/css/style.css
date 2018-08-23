@@ -24,3 +24,40 @@
 #heading{
   padding-left: 8px;
 }
+
+.main-content-container{
+  display: flex;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-top: 30px;
+  height: 560px;
+  width: 100%;
+}
+
+.column{
+  border: 1px solid black;
+  height: 463px;
+}
+
+.column .large{
+  display:inline-block;
+  width: 630px;
+  border: 2px solid black;
+  height: 460px;
+}
+
+.column .medium{
+  display:inline-block;
+  width: 300px;
+  border: 2px solid black;
+  height: 460px;
+  margin-left: 50px;
+}
+
+.column .small{
+  display:inline-block;
+  width: 240px;
+  border: 2px solid black;
+  height: 460px;
+  margin-left: 50px;
+}

@@ -1,3 +1,7 @@
+body{
+
+}
+
 .header{
   font-family: verdana;
   font-size: 14px;
@@ -26,38 +30,78 @@
 }
 
 .main-content-container{
-  display: flex;
+  display: inline-flex;
   border: 1px solid black;
   margin-top: 10px;
-  padding-top: 30px;
-  height: 560px;
-  width: 100%;
 }
 
-.column{
-  border: 1px solid black;
-  height: 463px;
-}
-
-.column .large{
-  display:inline-block;
+.large-column{
   width: 630px;
-  border: 2px solid black;
-  height: 460px;
 }
 
-.column .medium{
-  display:inline-block;
+.medium-column{
   width: 300px;
-  border: 2px solid black;
-  height: 460px;
-  margin-left: 50px;
 }
 
-.column .small{
-  display:inline-block;
+.small-column{
   width: 240px;
-  border: 2px solid black;
-  height: 460px;
-  margin-left: 50px;
+}
+
+.large-column, .medium-column, .small-column{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 40px 60px 0px 0px;
+}
+
+#large-column-heading1, .large-column-section2, #large-column-heading3, #large-column-heading5, .medium-column-section1, #small-column-paragraph1{
+  border: 1px solid black;
+}
+
+#large-column-heading1{
+  display: flex;
+  background-image: url(..//..//images/img-story-main.png);
+  height: 300px;
+  margin-top: 0px;
+}
+
+#large-column-heading3{
+  display: flex;
+  background-image: url(..//..//images/img-story-2.png);
+  height: 300px;
+  margin-bottom: 0px;
+}
+
+#large-column-heading5{
+  display: flex;
+  background-image: url(..//..//images/img-story-3.png);
+  height: 300px;
+  margin-bottom: 0px;
+}
+
+#medium-column-heading2{
+  display: flex;
+  background-image: url(..//..//images/img-story-1.png);
+  height: 300px;
+}
+
+#large-column-paragraph1, #large-column-paragraph2, #large-column-paragraph3, #medium-column-paragraph1, #medium-column-paragraph2, #small-column-paragraph1{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#large-column-heading1, #large-column-heading3, #large-column-heading5, #medium-column-heading2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#large-column-heading1{
+  font-size: 40px;
+}
+
+.large-column-section2, .large-column-section3{
+  width: 315px;
 }
